@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet'/>
-	<link rel="stylesheet" href="./style.css"></link>
-	<script src="./bundle.js" defer></script>
-	<meta charset="UTF-8"/>
-	<title>Trip Planner</title>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet'/>
+		<link rel="stylesheet" href="./style.css"></link>
+		<script src="./bundle.js" defer></script>
+		<meta charset="UTF-8"/>
+		<title id='page-title'>Navbar</title>
     </head>
     <body>
-	<div id="map"></div>
+		<div id='navbar'>NAVBAR</div>
+		<div id='map-and-container'>
+		<div id="map"></div>
+		<div id='container'>
+			<div id='activity-types'>
+				<div id='hotel'>
+					<h2>Hotels</h2>
+					<select>
+						<option value='hotel1'>choose option1</option>
+						<option value='hotel2'>choose option2</option>
+						<option value='hotel3'>choose option3</option>
+					</select>
+					<button>X</button>
+				</div>
+				<div id='restaurants'>
+					<h2>Restaurants</h2>
+					<select>
+						<option value='hotel1'>choose option1</option>
+						<option value='hotel2'>choose option2</option>
+						<option value='hotel3'>choose option3</option>
+					</select>
+					<button>X</button>
+				</div>
+				<div id='things-to-do'>
+					<h2>Things to do</h2>
+					<select>
+						<option value='hotel1'>choose option1</option>
+						<option value='hotel2'>choose option2</option>
+						<option value='hotel3'>choose option3</option>
+					</select>
+					<button>X</button>
+				</div>
+			</div>
+			<div id='my-activity-types'>
+				<h2 id='itinerary'>Itinerary</h2>
+				<div id='my-hotel'>
+					<h2>My Hotel</h2>
+					<ul>
+						<li>Hotel 1</li>
+					</ul>
+					<button>X</button>
+				</div>
+				<div id='my-restaurants'>
+					<h2>My Restaurants</h2>
+					<ul>
+						<li>restaurant 1</li>
+					</ul>
+					<button>X</button>
+				</div>
+				<div id='my-activities'>
+					<h2>My Activities</h2>
+					<ul>
+						<li>activity1</li>
+					</ul>
+					<button>X</button>
+				</div>
+			</div>
+		</div>
+	</div>
     </body>
 </html>

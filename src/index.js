@@ -10,6 +10,12 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10"
 });
 
-makeMapMarker([-74.009151, 40.705086], map);
+const markerType = {
+  activity: '//i.imgur.com/WbMOfMl.png',
+  hotel: '//i.imgur.com/D9574Cu.png',
+  restaurant: '//i.imgur.com/cqR6pUI.png'
+}
+
+makeMapMarker(markerType.restaurant, [-74.009151, 40.705086], map);
 
 console.log('I am running');
