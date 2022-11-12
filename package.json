@@ -20,7 +20,7 @@
   "homepage": "https://github.com/JoshuaHoeflich/TripPlanner#readme",
   "devDependencies": {
     "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "mapbox-gl": "^1.2.1"
